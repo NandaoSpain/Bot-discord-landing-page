@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Roboto:ital@1&family=Sarala&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    padding: 15px;
+    height: 62px;
+    width: 62px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 30px;
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav a {
+    color: #FFF2E7
+}
