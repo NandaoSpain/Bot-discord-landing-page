@@ -26,7 +26,7 @@ body {
 
 .navegacao {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     font-family: 'Sarala', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -36,3 +36,51 @@ body {
 nav a {
     color: #FFF2E7
 }
+
+main {
+    height: 1020px;
+}
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #ECD6C4;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;    
+}
+
+.principal h1 {
+    font-family: 'Righteous';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF2E7;
+    
+}
+
+.principal h2 {
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.principal button {
+    background-color: #ECD6C4;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    width: 185px;
+    height: 67px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
