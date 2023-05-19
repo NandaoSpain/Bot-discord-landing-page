@@ -51,12 +51,13 @@ main {
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid #ECD6C4;
+    flex-wrap: wrap; 
 }
 
 .principal {
     display: flex;
     flex-direction: column;
-    gap: 40px;    
+    gap: 40px;  
 }
 
 .principal h1 {
@@ -118,6 +119,7 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+    margin: 0px;
 }
 
 footer {
