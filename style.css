@@ -37,8 +37,13 @@ nav a {
     color: #FFF2E7
 }
 
+nav a:hover {
+    transition: 0.5s;
+    color: #f0a39173;
+}
+
 main {
-    height: 1020px;
+    
 }
 
 .meio {
@@ -83,4 +88,45 @@ main {
     font-size: 24px;
 }
 
+.principal button:hover {
+    cursor: pointer;
+    background-color: #8E5D52;
+    color: #FFF2E7;
+    transition: 0.5s;
+}
 
+.abaixo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    color: #FFF2E7;
+}
+
+.abaixo h3 {
+    border-top: 1px solid #ECD6C4;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.abaixo p {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer {
+    padding: 50px;
+    margin-top: 68px;
+    border-top: 1px solid #ECD6C4;
+}
+
+footer img {
+    display: flex;
+    margin: 0 auto;
+}
