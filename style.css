@@ -27,14 +27,12 @@ body {
 .navegacao {
     display: flex;
     gap: 50px;
-    font-family: 'Sarala', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 nav a {
-    color: #FFF2E7
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -42,15 +40,11 @@ nav a:hover {
     color: #f0a39173;
 }
 
-main {
-    
-}
-
 .meio {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 1px solid #ECD6C4;
+    border-top: 0.4px solid #ECD6C4;
     flex-wrap: wrap; 
 }
 
@@ -63,10 +57,8 @@ main {
 .principal h1 {
     font-family: 'Righteous';
     font-size: 64px;
-    font-style: normal;
     font-weight: 400;
     color: #FFF2E7;
-    
 }
 
 .principal h2 {
@@ -74,17 +66,16 @@ main {
     font-family: 'Sarala', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    font-style: normal;
 }
 
 .principal button {
     background-color: #ECD6C4;
     border-radius: 20px;
+    border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     width: 185px;
     height: 67px;
     font-family: 'Sarala';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
 }
@@ -105,25 +96,23 @@ main {
 }
 
 .abaixo h3 {
-    border-top: 1px solid #ECD6C4;
+    border-top: 0.4px solid #ECD6C4;
     padding-top: 50px;
     margin-top: 50px;
     font-family: 'Righteous';
-    font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 28px;
+    margin-bottom: 16px;
 }
 
 .abaixo p {
     font-family: 'Sarala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
 }
 
 footer {
-    padding: 50px;
+    padding: 33px;
     margin-top: 68px;
     border-top: 1px solid #ECD6C4;
 }
